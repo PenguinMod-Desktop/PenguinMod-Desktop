@@ -1,10 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="15px" height="32px" viewBox="-4.5 -6 10 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>polygon-expand</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="polygon-expand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M3,6c0,0.36639 -0.1374,0.73116 -0.4138,1.01163l-3.84399,3.90222c-0.5512,0.55931 -1.44269,0.55931 -1.99549,0c-0.5512,-0.55769 -0.5512,-9.27001 0,-9.8277c0.5512,-0.55931 1.44429,-0.55931 1.99549,0l3.84399,3.9006c0.2764,0.28047 0.4138,0.64524 0.4138,1.01325" id="expand" fill="#575E75"></path>
-    </g>
-</svg>
+<!-- thanks to <https://github.com/CST1229> for the design -->
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="43.379" viewBox="0 0 30 43.379"><g stroke-miterlimit="10"><path d="M8.328 0a8.2 8.2 0 0 1 5.87 2.423l13.379 13.379a8.36 8.36 0 0 1 0 11.775L14.198 40.922a8.26 8.26 0 0 1-5.87 2.457 8.46 8.46 0 0 1-5.905-2.423C1.604 39.966 0 38.498 0 21.672S1.57 3.276 2.423 2.423A8.33 8.33 0 0 1 8.328 0" fill="#231f20" opacity=".1"/><path d="M26.536 21.724a4.88 4.88 0 0 1-1.433 3.413L11.724 38.584a4.915 4.915 0 0 1-6.826 0c-1.911-1.911-1.911-31.775 0-33.686a4.915 4.915 0 0 1 6.826 0l13.379 13.379a4.88 4.88 0 0 1 1.433 3.447" fill="#fff"/></g></svg>

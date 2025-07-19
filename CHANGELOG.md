@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.4.0
+
+Updated to latest version of PenguinMod and some other changes.
+
+### Added
+
+- There is now a `Desktop Settings` category under the settings tab
+- Added a livetests toggle under `Desktop Settings`
+
+### Changed
+
+- Updated to latest version of PenguinMod as of the `19th of July 2025`
+- Updated the `Webview Windows` extension, which has been moved to livetests
+
 ## v1.3.0
 
 Updated to latest version of PenguinMod and added a new extension.

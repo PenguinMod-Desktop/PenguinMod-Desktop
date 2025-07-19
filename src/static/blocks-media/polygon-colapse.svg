@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="15px" height="32px" viewBox="-4.5 -6 10 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>polygon-colapse</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="polygon-colapse" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M-3,6c0,-0.36639 0.1374,-0.73116 0.4138,-1.01163l3.84399,-3.90222c0.5512,-0.55931 1.44269,-0.55931 1.99549,0c0.5512,0.55769 0.5512,9.27001 0,9.8277c-0.5512,0.55931 -1.44429,0.55931 -1.99549,0l-3.84399,-3.9006c-0.2764,-0.28047 -0.4138,-0.64524 -0.4138,-1.01325" id="colapse" fill="#575E75"></path>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="43.379" viewBox="0 0 30 43.379"><g stroke-miterlimit="10"><path d="M27.577 2.423c0.853 0.853 2.423 2.423 2.423 19.249s-1.604 18.294 -2.423 19.283a8.464 8.464 0 0 1 -5.904 2.423 8.259 8.259 0 0 1 -5.87 -2.457L2.423 27.577a8.362 8.362 0 0 1 0 -11.775L15.802 2.423A8.191 8.191 0 0 1 21.672 0a8.328 8.328 0 0 1 5.904 2.423" fill="#231f20" opacity=".1"/><path d="m4.898 18.276 13.379 -13.379a4.915 4.915 0 0 1 6.826 0c1.911 1.911 1.911 31.775 0 33.686a4.915 4.915 0 0 1 -6.826 0l-13.379 -13.447a4.881 4.881 0 0 1 -1.433 -3.413c0 -1.294 0.519 -2.532 1.433 -3.447" fill="#fff"/></g></svg>

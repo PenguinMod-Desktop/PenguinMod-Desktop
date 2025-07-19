@@ -7,15 +7,24 @@
   ],
   "permissions": [
     "core:webview:allow-create-webview-window",
+    "core:window:allow-destroy",
+    "core:window:allow-close",
     "fs:default",
     "fs:allow-appcache-read",
     "fs:allow-appcache-write",
+    "fs:allow-appconfig-read",
+    "fs:allow-appconfig-write",
+    "store:default",
     {
       "identifier": "fs:allow-exists",
       "allow": [{
         "path": "$APPCACHE/*"
       }, {
         "path": "$APPCACHE"
+      }, {
+        "path": "$APPCONFIG/*"
+      }, {
+        "path": "$APPCONFIG"
       }]
     }
   ]
