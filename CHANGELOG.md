@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.4.1
+
+Updated to latest version of PenguinMod and some other changes.
+
+### Changed
+
+- Updated to latest version of PenguinMod as of the `2nd of August 2025`
+
 ## v1.4.0
 
 Updated to latest version of PenguinMod and some other changes.

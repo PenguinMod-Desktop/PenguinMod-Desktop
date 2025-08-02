@@ -1,25 +1,26 @@
 {
-	"name": "penguinmod-desktop",
-	"description": "An unofficial desktop version of PenguinMod",
-	"author": {
-		"name": "SCsupercraft",
-		"url": "https://github.com/SCsupercraft"
-	},
-	"private": true,
-	"version": "1.4.0",
-	"type": "module",
-	"scripts": {
-		"tauri": "tauri",
-		"update": "node update.cjs",
-		"update:local": "node update-local.cjs"
-	},
-	"devDependencies": {
-		"@tauri-apps/cli": "^2"
-	},
-	"dependencies": {
-		"@tauri-apps/plugin-fs": "^2.2.1",
-		"@tauri-apps/plugin-log": "^2.4.0",
-		"@tauri-apps/plugin-store": "^2.3.0",
-		"@tauri-apps/plugin-updater": "^2.7.1"
-	}
+    "name": "penguinmod-desktop",
+    "description": "An unofficial desktop version of PenguinMod",
+    "author": {
+        "name": "SCsupercraft",
+        "url": "https://github.com/SCsupercraft"
+    },
+    "private": true,
+    "version": "1.4.1",
+    "type": "module",
+    "scripts": {
+        "tauri": "tauri",
+        "update": "node update.cjs",
+        "update:local": "node update-local.cjs",
+        "bump": "node bump.cjs"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "^2"
+    },
+    "dependencies": {
+        "@tauri-apps/plugin-fs": "^2.2.1",
+        "@tauri-apps/plugin-log": "^2.4.0",
+        "@tauri-apps/plugin-store": "^2.3.0",
+        "@tauri-apps/plugin-updater": "^2.7.1"
+    }
 }
