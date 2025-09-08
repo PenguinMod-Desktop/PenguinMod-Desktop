@@ -2,10 +2,10 @@ const processes = require('node:child_process');
 const path = require('node:path');
 const fs = require('node:fs');
 
-if (process.versions.node.split('.')[0] != '16') {
-	console.error('Please use Node v16 for updating penguinmod versions!');
-	process.exit(0);
-}
+// if (process.versions.node.split('.')[0] != '16') {
+// 	console.error('Please use Node v16 for updating penguinmod versions!');
+// 	process.exit(0);
+// }
 
 const pmDir = path.resolve(__dirname, 'penguinmod');
 try {
