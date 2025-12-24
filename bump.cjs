@@ -52,7 +52,10 @@ readline.question(
 
 		await fs.writeFile(
 			'src-tauri/Cargo.toml',
-			cargo.reduce((p, c) => p + c + '\n', '')
+			cargo.reduce(
+				(p, c, i, a) => p + c + (i + 1 < a.length ? '\n' : ''),
+				''
+			)
 		);
 		await fs.writeFile('package.json', JSON.stringify(pkgJson, null, 4));
 		await fs.writeFile(

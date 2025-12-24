@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.5.1
+
+This is a hotfix to resolve issues with loading PenguinMod Desktop while offline.\
+The issue was caused by an error when the app could not check for updates.
+
+### Fixed
+
+-   You can now once again use the app when offline
+
 ## v1.5.0
 
 Updated to latest version of PenguinMod and added a splash screen
