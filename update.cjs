@@ -7,6 +7,8 @@ const fs = require('node:fs');
 // 	process.exit(0);
 // }
 
+const appDir = path.resolve(__dirname, 'app');
+
 const pmDir = path.resolve(__dirname, 'penguinmod');
 try {
 	fs.accessSync(pmDir);
@@ -63,6 +65,10 @@ processes
 						if (code != 0) throw new Error('An unexpected error occurred!');
 
 						fs.cpSync(path.resolve(pmDir, 'build'), srcDir, {
+							recursive: true,
+							force: true,
+						});
+						fs.cpSync(appDir, srcDir, {
 							recursive: true,
 							force: true,
 						});

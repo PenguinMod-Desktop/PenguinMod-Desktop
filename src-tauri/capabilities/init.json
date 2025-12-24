@@ -1,0 +1,13 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "init",
+  "description": "Capability for the init window",
+  "windows": [
+    "init"
+  ],
+  "permissions": [
+    "process:allow-restart",
+    "updater:default",
+    "deep-link:default"
+  ]
+}

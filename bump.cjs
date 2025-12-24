@@ -7,7 +7,9 @@ const readline = require('readline').createInterface({
 readline.question(
 	'Enter a number from 1-3\n\t1: MAJOR\n\t2: MINOR\n\t3: PATCH\n',
 	async (type) => {
-		const cargo = (await fs.readFile('src-tauri/Cargo.toml', 'utf-8')).split('\n');
+		const cargo = (
+			await fs.readFile('src-tauri/Cargo.toml', 'utf-8')
+		).split('\n');
 		const pkgJson = JSON.parse(await fs.readFile('package.json'));
 		const pkgLock = JSON.parse(await fs.readFile('package-lock.json'));
 		const tauriConfig = JSON.parse(
@@ -46,8 +48,12 @@ readline.question(
 		pkgLock.packages[''].version = newVer;
 		tauriConfig.version = newVer;
 		tauriConfig.app.windows[0].title = `PenguinMod Desktop - Version ${newVer}`;
+		tauriConfig.app.windows[1].title = `PenguinMod Desktop - Version ${newVer}`;
 
-		await fs.writeFile('src-tauri/Cargo.toml', cargo.reduce((p, c) => p + c + '\n', ''));
+		await fs.writeFile(
+			'src-tauri/Cargo.toml',
+			cargo.reduce((p, c) => p + c + '\n', '')
+		);
 		await fs.writeFile('package.json', JSON.stringify(pkgJson, null, 4));
 		await fs.writeFile(
 			'package-lock.json',
