@@ -35,7 +35,7 @@ try {
 
 processes
 	.spawn(
-		'git clone https://github.com/SCsupercraft/PenguinMod-Desktop-Gui.git ./penguinmod', {
+		'git clone https://github.com/PenguinMod-Desktop/PenguinMod-Desktop-Gui.git ./penguinmod', {
 			cwd: __dirname,
 			stdio: 'inherit',
 			shell: true,
