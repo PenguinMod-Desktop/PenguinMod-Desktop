@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.5.2
+
+### Changed
+
+-   Updated to latest version of PenguinMod as of the `26th of December 2025`
+
 ## v1.5.1
 
 This is a hotfix to resolve issues with loading PenguinMod Desktop while offline.\
