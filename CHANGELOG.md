@@ -1,6 +1,16 @@
 # Changelog
 
+## v1.5.3
+
+Updated to latest version of PenguinMod.
+
+### Changed
+
+-   Updated to latest version of PenguinMod as of the `1st of January 2026`
+
 ## v1.5.2
+
+Updated to latest version of PenguinMod.
 
 ### Changed
 
@@ -30,7 +40,7 @@ Updated to latest version of PenguinMod and added a splash screen
 
 ## v1.4.4
 
-Updated to latest version of PenguinMod and some other changes.
+Updated to latest version of PenguinMod.
 
 ### Changed
 
@@ -38,7 +48,7 @@ Updated to latest version of PenguinMod and some other changes.
 
 ## v1.4.3
 
-Updated to latest version of PenguinMod and some other changes.
+Updated to latest version of PenguinMod.
 
 ### Changed
 
@@ -46,7 +56,7 @@ Updated to latest version of PenguinMod and some other changes.
 
 ## v1.4.2
 
-Updated to latest version of PenguinMod and some other changes.
+Updated to latest version of PenguinMod.
 
 ### Changed
 
@@ -54,7 +64,7 @@ Updated to latest version of PenguinMod and some other changes.
 
 ## v1.4.1
 
-Updated to latest version of PenguinMod and some other changes.
+Updated to latest version of PenguinMod.
 
 ### Changed
 
