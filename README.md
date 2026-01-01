@@ -16,7 +16,7 @@ PenguinMod Desktop uses the `penguinmod` protocol for deep links.
 
 ### Projects
 
-Deep link can open projects directly from penguinmod.\
+Links can open projects directly from penguinmod.\
 These links follow the format `penguinmod:projects/<project_id>`
 
 Additionally, you can open projects with a link to the project's file.\
